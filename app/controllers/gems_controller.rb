@@ -4,6 +4,6 @@ class GemsController < ApplicationController
   end
 
   def index
-    render "nothing to see here"
+    render :text => "nothing to see here"
   end
 end

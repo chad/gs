@@ -7,7 +7,7 @@ Bundler.require :default, Rails.env
 
 module Gs
   class Application < Rails::Application
-    # config.load_paths += %W( #{config.root}/extras )
+    config.load_paths += %W( #{config.root}/app/workers)
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
