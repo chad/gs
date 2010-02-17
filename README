@@ -1,1 +1,5 @@
 This is GS.
+
+
+ RAILS_ENV=production VVERBOSE=true QUEUES=download rake environment resque:work
+

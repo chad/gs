@@ -1,7 +1,7 @@
 class DownloadGem
   @queue = :download
   
-  def self.perform(name, version)
-    raise [name, version].inspect 
+  def self.perform(params)
+    raise params.inspect
   end
 end
